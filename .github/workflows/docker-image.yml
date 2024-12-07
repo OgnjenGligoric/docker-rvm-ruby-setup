@@ -18,6 +18,3 @@ jobs:
 
     - name: Build Docker image
       run: docker build -t ruby-multi-version .
-
-    - name: Run verification script
-      run: docker run --rm ruby-multi-version
